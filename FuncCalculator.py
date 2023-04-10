@@ -1,5 +1,5 @@
 print("Calculator")
-operations=["+","-","/","?*","%","q"]
+operations=["+","-","/","*","%","q"]
 
 def getnumbers():
     num1=float(input("Please enter first number:"))
