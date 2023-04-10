@@ -35,23 +35,18 @@ while True:
         break
 
     if operation=="+":
-        result=add(num1,num2)
-        print("The result is:",result)
+        print("The result is:",add(num1,num2))
     elif operation=="-":
-        result=subs(num1,num2)
-        print("The result is:",result)
+        print("The result is:",subs(num1,num2))
     elif operation=="/":
         if num2==0:
             print("A number not dived by 0")
         else:
-            result=divide(num1,num2)
-            print("The result is:",result)    
+            print("The result is:",divide(num1,num2))    
     elif operation=="*":
-        result=multiply(num1,num2)
-        print("The result is:",result)
+        print("The result is:",multiply(num1,num2))
     elif operation=="%":
-        result=mod(num1,num2)
-        print("The result is:",result)
+        print("The result is:",mod(num1,num2))
         continue
      
 
